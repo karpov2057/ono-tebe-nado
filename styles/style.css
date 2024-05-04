@@ -116,16 +116,16 @@ address {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    inset: 0;
+    align-items: end;
+    inset: 0px 50px 51px 78px;
     z-index: 2;
-    padding: 655px 50px 51px 78px;
     font-size: 22px;
     font-weight: 400;
     color: #FFFFFF;
 }
 
 .cover__description-text {
+    text-align: center;
     line-height: 28px;
     word-spacing: 18px;
     text-transform: uppercase;
@@ -134,6 +134,7 @@ address {
 .bet-button {
     border: 1px solid #FFFFFF;
     padding: 12px 32px 11px 31px;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 400;
     text-transform: uppercase;
@@ -143,4 +144,85 @@ address {
 
 .lots {
     margin: 179px 24px 0px 24px;
+}
+
+.lots__heading {
+    padding-left: 40px;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.lots__card-list {
+    display: flex;
+    gap: 25px;
+    margin-top: 27px;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+
+.lots__card-list-item {
+    flex-grow: 1;
+}
+
+.card-link {
+    display: block;
+    text-decoration: none;
+}
+
+.card {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 334px;
+    min-height: 563px;
+    color: #FFFFFF;
+}
+
+.card_type_film {
+    background-image: url(../images/card-lot-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.card_type_book {
+    background-image: url(../images/card-lot-02.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.card_type_picture {
+    background-image: url(../images/card-lot-03.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no-repeat;
+}
+
+.card__title {
+    z-index: 3;
+    padding: 51px 40px 0px 40px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 120%;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.card__text {
+    z-index: 3;
+    padding: 0px 40px 48px 40px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.lots__look-more-link {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 400;
+    text-underline-offset: 5px;
 }
