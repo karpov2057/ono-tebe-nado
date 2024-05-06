@@ -86,7 +86,7 @@ header {
     color: #FFFFFF;
     font-size: 100px;
     font-weight: bold;
-    line-height: 125%;
+    line-height: 123%;
     text-transform: uppercase;
 }
 
@@ -97,15 +97,16 @@ header {
 
 .aligned-text_center {
     text-align: center;
-    
+    letter-spacing: 20px;
 }
 
 .aligned-text_right {
     text-align: right;
+    letter-spacing: 4px;
 }
 
 .letter-spacing-extended {
-    letter-spacing: 15px;
+    letter-spacing: 35px;
 }
 
 .no-letter-spacing {
