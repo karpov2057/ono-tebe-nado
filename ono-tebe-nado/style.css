@@ -48,7 +48,6 @@ header {
 .header__logo-image {
     margin-left: 36px;
     width: 148px;
-    height: 105px;
 }
 
 .address {
@@ -88,11 +87,11 @@ header {
     font-weight: bold;
     line-height: 125%;
     text-transform: uppercase;
+    letter-spacing: 5px;
 }
 
 .aligned-text {
     display: block;
-    letter-spacing: 5px;
 }
 
 .aligned-text_center {
@@ -116,10 +115,8 @@ header {
     position: absolute;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    gap: 79px;
-    right: 50px;
-    bottom: 51px;
+    align-items: end;
+    inset: 0px 50px 51px 78px;
     z-index: 2;
     font-size: 22px;
     font-weight: 400;
@@ -212,8 +209,6 @@ header {
     line-height: 120%;
     text-transform: uppercase;
     text-decoration: underline;
-    text-underline-offset: 3px;
-    text-decoration-thickness: 1px;
 }
 
 .card__text {
@@ -229,7 +224,6 @@ header {
     font-size: 20px;
     font-weight: 400;
     text-underline-offset: 5px;
-    text-decoration-thickness: 1px;
 }
 
 .about {
@@ -292,24 +286,7 @@ header {
     text-underline-offset: 4px;
 }
 
-.footer__menu {
-    font-weight: 400;
-    font-size: 18px;
+.footer__nav {
     text-align: center; 
 }
 
-.footer__menu-list {
-    list-style-type: none;
-}
-
-.footer__social-list {
-    display: flex;
-    justify-content: space-around;
-    align-items: start;
-    gap: 48px;
-    list-style-type: none;
-}
-
-.footer__social-icon {
-    width: 48px;
-}
