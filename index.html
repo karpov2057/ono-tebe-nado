@@ -4,16 +4,18 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/fonts/fonts.css">
-    <link rel="stylesheet" href="/styles/global.css">
-    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/global.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
     <header>
       <nav class="header__menu">
         <ul class="header__links-list">
-          <li class="header__links-list-item_no-bullit header__link">главная</li>
+          <li class="header__links-list-item_no-bullit">
+            <a>главная</a>
+          </li>
           <li class="header__links-list-item header__link_active">
             <a href="#">посмотреть лоты</a>
           </li>
@@ -23,7 +25,7 @@
         </ul>
       </nav>
       <a class="header__logo">
-        <img src="/images/logo-black.svg" class="header__logo-image" alt="Логотип">
+        <img src="./images/logo-black.svg" class="header__logo-image" alt="Логотип черного цвета">
       </a>
       <address class="address">
         <a href="tel:+99995555555">+9 999 555 5555</a>
@@ -41,19 +43,9 @@
       <section class="cover">
         <div class="overlay">
           <h1 class="cover__title">
-            <span class="aligned-text">
-              <span>о</span>
-              <span class="letter-spacing-extended">н</span>
-              <span>о</span>
-            </span>
-            <span class="aligned-text aligned-text_center">те
-              <span class="letter-spacing-extended">бе  
-              </span>
-            </span>
-            <span class="aligned-text aligned-text_right">
-              <span>н</span>
-              <span class="no-letter-spacing">адо</span>
-            </span>
+            <span>о<span class="letter-spacing-extended">но</span></span>
+            <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">бе</span></span>
+            <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>ад<span class="no-letter-spacing">о</span></span>
           </h1>
         </div>
         <div class="cover__description">
@@ -113,12 +105,12 @@
       </section>
       <section class="about">
         <div class="about__logo">
-          <img src="/images/logo-white.svg" class="about__logo-image">
+          <img src="./images/logo-white.svg" class="about__logo-image" alt="Логотип белого цвета">
         </div>
         <h6 class="about__title">
           Об аукционе
         </h6>
-        <span class="about__text">
+        <div class="about__text">
           <p>
             Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата.
              Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник 
@@ -133,49 +125,48 @@
               невозможно представить современную культуру. Когда в эти вещи не верил никто,
                продолжали верить их создатели. И сейчас эти лоты стали культовыми. 
           </p>
-        </span>
+        </div>
       </section>
     </main>
-    <footer>
-      <footer class="footer">
-        <address class="footer__address">
-          <a href="tel:+99995555555">+9 999 555 5555</a>
-          <br>
-          <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-          <br>
-          <p>
-            наб. Принсенграхт 263-
-            <br>
-            265, Амстердам
-          </p>
-        </address>
-        <nav class="footer__menu">
-          <ul class="footer__menu-list">
-            <li class="header__link">
-              <a>главная</a>
-            </li>
-            <li class="header__link_active">
-              <a href="#">посмотреть лоты</a>
-            </li>
-            <li class="header__link_active">
-              <a href="#">об аукционе</a>
-            </li>
-          </ul>
-        </nav>
+    <footer class="footer">
+      <address class="footer__address">
+        <a href="tel:+99995555555">+9 999 555 5555</a>
+        <br>
+        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
+        <br>
+        <p>
+        наб. Принсенграхт 263-
+        <br>
+        265, Амстердам
+        </p>
+      </address>
+      <nav class="footer__menu">
+        <ul class="footer__menu-list">
+          <li class="header__link">
+            <a>главная</a>
+          </li>
+          <li class="header__link_active">
+            <a href="#">посмотреть лоты</a>
+          </li>
+          <li class="header__link_active">
+            <a href="#">об аукционе</a>
+          </li>
+        </ul>
+      </nav>
         <ul class="footer__social-list">
           <li>
             <a>
-              <img src="/images/yt.svg" class="footer__social-icon" alt="Логотип ютуб">
+              <img src="./images/yt.svg" class="footer__social-icon" alt="Логотип ютуб">
             </a>
           </li>
           <li>
             <a>
-              <img src="/images/vk.svg" class="footer__social-icon" alt="Логотип вкотакте">
+              <img src="./images/vk.svg" class="footer__social-icon" alt="Логотип вкотакте">
             </a>
           </li>
           <li>
             <a>
-              <img src="/images/pinterest.svg" class="footer__social-icon" alt="Логотип пинтерест">
+              <img src="./images/pinterest.svg" class="footer__social-icon" alt="Логотип пинтерест">
             </a>
           </li>
         </ul>
