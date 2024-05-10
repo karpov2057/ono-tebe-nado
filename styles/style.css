@@ -74,11 +74,11 @@
 .cover__title {
     z-index: 1;
     width: 100%;
-    padding: 161px 48px 120px 50px;
+    padding: 161px 48px 126px 50px;
     color: #FFF;
     font-size: 100px;
     font-weight: bold;
-    line-height: 125%;
+    line-height: 123%;
     text-transform: uppercase;
     letter-spacing: 28px;
 }
@@ -270,12 +270,6 @@
     margin: 180px 45px 88px 55px;
     font-weight: 400;
     font-size: 18px;
-}
-
-.footer__address {
-    line-height: 24.3px;
-    font-style: normal;
-    text-underline-offset: 4px;
 }
 
 .footer__menu {
