@@ -277,12 +277,16 @@
 
 .footer__menu {
     padding-left: 29px;
-    font-size: 18px;
     text-align: center;
 }
 
 .footer__links-list-item {
     text-underline-offset: 4px;
+}
+
+.footer__link {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .footer__link_active {
