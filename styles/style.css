@@ -15,8 +15,6 @@
     align-items: center;
     gap: 33px;
     padding-left: 28px;
-    font-size: 18px;
-    font-weight: 400;
 }
 
 .header__links-list-item {
@@ -26,6 +24,11 @@
 
 .header__links-list-item_no-bullit {
     list-style-type: none;
+}
+
+.header__link {
+    font-size: 18px;
+    font-weight: 400;
 }
 
 .header__link_active {
